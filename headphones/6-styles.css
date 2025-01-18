@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #ff6565;
+  --color-secondary: #071629;
+  --color-tertiary: #ffffff;
+}
+body {
+  background: var(--color-tertiary);
+}
+.pentagon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 0;
+  border-top: 200px solid var(--color-primary);
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+}
+.pentagon::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -299px;
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 0;
+  border-bottom: 200px solid var(--color-primary);
+  border-right: 200px solid transparent;
+  border-left: 200px solid transparent;
+}
