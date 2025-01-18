@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #ff6565;
+  --color-secondary: #071629;
+  --color-tertiary: #ffffff;
+}
+
+@font-face {
+  font-family: "SourceSanPro-Regular";
+  src: url(./fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "SourceSanPro-Bold";
+  src: url(./fonts/SourceSansPro-Bold.otf);
+}
+
+body {
+  width: 100%;
+  height: 3800px;
+  background-color: var(--color-tertiary);
+  opacity: 100%;
+}
+
+/* HEADER SECTION */
+
+header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  color: var(--color-tertiary);
+  /* background-color: var(--color-secondary); */
+  z-index: 99999;
+}
+
+.logo {
+  width: 160px;
+  height: 32px;
+  margin-left: 200px;
+}
+
+.logo img {
+  width: 120px;
+  height: 35px;
+}
+
+header nav {
+  width: 290px;
+  height: 15px;
+  display: flex;
+  margin-left: 930px;
+  margin-top: 10px;
+  /* flex: auto; */
+}
+header nav a {
+  margin-right: 20px;
+  font-family: "SourceSanPro-Bold";
+  font-size: 15px;
+  color: var(--color-tertiary);
+  text-decoration: none;
+}
+
+/* MAIN SECTION */
+
+main {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  background-image: url(./images/headphones_hero_1.jpg);
+  top: 0;
+}
+
+.hero-content {
+  width: 640px;
+  height: 320px;
+  color: var(--color-tertiary);
+  opacity: 100%;
+  margin-top: 370px;
+  margin-left: calc(50% - 320px);
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 20px;
+  color: var(--color-tertiary);
+  font-family: "SourceSanPro-Bold";
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.hero-content h2 {
+  font-family: "SourceSanPro-Bold";
+  font-size: 32px;
+  line-height: auto;
+  margin-left: 30px;
+}
+
+.hero-content h5 {
+  font-family: "SourceSanPro-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  /* margin-top: 2px; */
+  margin-left: 122px;
+}
+
+.hero-content button {
+  margin-left: 210px;
+  margin-top: 30px;
+}
+
+.hero-content p {
+  margin-top: 50px;
+  line-height: 26px;
+  word-spacing: 0px;
+  font-family: "SourceSanPro-Regular";
+  font-size: 16px;
+  text-align: center;
+  opacity: 100%;
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width: 480px) {
+  header {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+  }
+  /* .logo {
+      position: absolute;
+      width: 100%;
+      height: 20px;
+      top: 10px;
+      left: 5px;
+    } */
+}
+
+/* WHAT WE DO SECTION */
+
+.what-we-do-section {
+  width: 645px;
+  height: 190px;
+  margin-top: 210px;
+  margin-left: calc(50% - 320px);
+  color: var(--color-secondary);
+}
+
+.what-we-do-section h2 {
+  font-family: "SourceSanPro-Bold";
+  font-size: 32px;
+  line-height: auto;
+  margin-left: 226px;
+}
+
+.what-we-do-section p {
+  width: 641px;
+  font-family: "sourceSanpro-regular";
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 30px;
+  text-align: center;
+  opacity: 100%;
+}
+
+.what-we-do-icons {
+  width: 1000px;
+  height: 195px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-left: calc(50% - 500px);
+}
