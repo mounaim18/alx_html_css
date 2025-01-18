@@ -1,38 +1,20 @@
-# Headphones Landing Page
+# Headphones Website
 
-This project is a responsive landing page for headphones, designed to adapt seamlessly between desktop and mobile screens. Built with HTML and CSS, it follows modern design principles for usability and responsiveness.  
-
----
-
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Fonts](#fonts)
-- [Interactions](#interactions)
-- [Development Notes](#development-notes)
-- [Project Structure](#project-structure)
-- [License](#license)
-
----
+This project is a responsive website for a headphone company designed using **HTML** and **CSS**.
 
 ## Features
+- Responsive design that adapts to mobile screens (480px or less).
+- Links change color on hover/active state (`#FF5655`).
+- Buttons become semi-transparent on hover/active state (`opacity: 0.9`).
+- Content is centered and has a maximum width of 1000px.
 
-1. **Responsive Design**:  
-   - The webpage switches to the mobile version when the screen width is 480px or less.
-2. **Typography and Design**:  
-   - Uses custom fonts (`Source Sans Pro` and `Spin Cycle OT`) to enhance readability and aesthetics.
-3. **Interactions**:  
-   - Hover effects for buttons and links:
-     - Links: `#FF6565` on hover/active.
-     - Buttons: Hover/active state with `opacity: 0.9`.
-4. **Content Alignment**:  
-   - Maximum width of content is set to 1000px and centered on the page for an optimal viewing experience.
+## Interactions
+- Mobile version activates when the screen width is less than or equal to 480px.
+- Fonts used: [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) and Spin-Cycle-OT.
+- All designs and details are available in the linked [Figma file](#).
 
----
+## Notes
+- Rounded pixel values where necessary.
+- All design elements comply with the Figma file guidelines.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/alx_html_css.git
+## Project Structure
